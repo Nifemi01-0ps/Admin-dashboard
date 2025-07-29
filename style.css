@@ -206,6 +206,9 @@ input[type="text"] {
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
 }
+.project {
+    display: grid;
+}
 .last-part  {
     display: grid;
     row-gap: 10px;
@@ -269,6 +272,7 @@ input[type="text"] {
 }
 .property {
     display: flex;
+    flex-direction: column;
 }
 .listed {
     display: flex;
