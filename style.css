@@ -13,8 +13,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto;
-    justify-self: center;
-    align-self: center;
 }
 .container div {
     /* border: 1px solid blue;
