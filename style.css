@@ -38,13 +38,11 @@ a {
 .dashboard div img {
     width: 40px;
     display: block;
-    height: 60px;
 }
 .d-img {
     display: flex;
     align-items: center;
     justify-items: start;
-    gap: 4px;
 }
 .dashboard div p {
     font-family: "Roboto", sans-serif;
@@ -126,6 +124,7 @@ a {
 }
 .project {
     display: grid;
+    align-items: center;
 }
 .last-part  {
     display: grid;
@@ -139,6 +138,7 @@ a {
 .annouce-content {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
     gap: 10px;
 }
 .annouce-content h3 {
