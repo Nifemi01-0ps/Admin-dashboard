@@ -84,6 +84,8 @@ a {
 .project {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .row1, .row2, .row3 {
     /* display: grid;
@@ -128,6 +130,7 @@ a {
 .last-part  {
     display: grid;
     row-gap: 10px;
+    margin-right: 20px;
 }
 .annoucement {
     display: grid;
