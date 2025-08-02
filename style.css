@@ -87,6 +87,10 @@ a {
     grid-template-rows: 1fr 4fr;
     grid-row: 1/ span 2;
     background-color: skyblue;
+    border: 2px solid white;
+    border-radius: 12px;      /* smooth rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+    padding: 1rem;
 }
 .header {
     display: grid;
@@ -189,6 +193,8 @@ input[type="text"] {
 .project-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column: 1 / span ;
+    justify-content: stretch;
 }
 .card-row-icon img {
     width: 30px;
