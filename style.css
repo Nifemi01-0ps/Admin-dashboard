@@ -38,7 +38,7 @@ a {
     grid-row: 1 / span 2;
     background-color: #1F2937;
 }
-.first-content,  .last-content {
+.first-content,   {
     display: grid;
     justify-content: start;
     margin-bottom: 20px;
@@ -47,6 +47,10 @@ a {
     display: grid;
     justify-content: start;
     margin-bottom: 10px;
+}
+.last-content {
+    display: grid;
+    justify-content: start;
 }
 .dashboard-img {
     display: flex;
@@ -274,6 +278,11 @@ input[type="text"] {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 12px;      /* smooth rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft shadow */
+    padding: 1rem;
+    background-color: #fff;
 }
 .side-down-content img {
     width: 40px;
