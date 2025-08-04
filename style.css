@@ -280,7 +280,7 @@ input[type="text"] {
     display: grid;
     grid-template-rows: 1fr 4fr;
     margin-left: 20px;                     
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .side-down h3, .side-row h3 {
     font-size: 1.3rem;
